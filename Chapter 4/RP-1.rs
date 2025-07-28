@@ -1,5 +1,5 @@
 // 1. Write a program to Find The Factorial using functions. 
-fn add(mut num:i32)->i32{
+fn palindrome(mut num:i32)->i32{
     let mut sum=1;
     while num!=0{
         sum*=num;
@@ -8,7 +8,7 @@ fn add(mut num:i32)->i32{
     return sum;
 }
 fn main() {
-    println!("{}",add(5));
+    println!("{}",palindrome(5));
 }
 
 //Ouput:
